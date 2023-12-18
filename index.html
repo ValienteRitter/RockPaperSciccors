@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+
+<body>
+    <div id="rps">
+        <h1>Rock Paper Scissors</h1>
+        <div id="buttons">
+            <button onclick="change_display(); choose_rock(); decide_winner_rock(); updateScore(); display_pc_input()">Rock</button>
+            <button onclick="change_display(); choose_paper(); decide_winner_paper(); updateScore(); display_pc_input()">Paper</button>
+            <button onclick="change_display(); choose_scissors(); decide_winner_scissors(); updateScore(); display_pc_input()">Scissors</button>
+        </div>
+        
+        <div id="displays">
+            <div id="displayPlayer">
+                <img id="player_img">
+                <h2 id="player"></h2>
+            </div>
+            <h3>VS</h3>
+            <div id="displayPC">
+                <img id="pc_img">
+                <h2 id="pc"></h2>
+            </div>
+            
+        </div>
+
+        <h2 id="winner"></h2>
+
+
+        <h2 id="score"></h2>
+        
+        <script src="script.js"></script>
+    </div>
+</body>
+
+
+
+</html>

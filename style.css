@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+#player{
+    color: rgb(0, 187, 255);
+}
+
+#pc{
+    color: red;
+}
+
+#winner{
+    color: green;
+}
+
+#rps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#displays{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+#player_img{
+    width: 13rem;
+    height: 13rem;
+    transform: rotate(90deg);
+    transform: scale3d(1, 1, 1) rotateX(180deg) rotateY(1deg) rotateZ(90deg) translate3d(0px, 0px, 0px) skew(0deg, 0deg);
+}
+
+#pc_img{
+    width: 13rem;
+    height: 13rem;
+    transform: rotate(-90deg);
+}
+
